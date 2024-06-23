@@ -1,0 +1,39 @@
+/* Estilo general del cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo para la lista de menú */
+.menu {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilo para los elementos de la lista */
+.menu > li {
+    margin-bottom: 10px; /* Espacio inferior entre los elementos */
+}
+
+/* Estilo para los enlaces de la lista */
+.menu a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: purple; /* Color del texto */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    list-style-type: circle; /* Usa círculos como viñetas */
+    padding-left: 20px; /* Sangría para las sublistas */
+}
+
+/* Muestra el menú desplegable al pasar el ratón sobre el elemento de la lista */
+.dropdown:hover .dropdown-content {
+    display: block; /* Muestra el menú desplegable */
+}
